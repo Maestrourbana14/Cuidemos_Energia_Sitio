@@ -1,0 +1,11 @@
+*{box-sizing:border-box;font-family:Segoe UI, Roboto, Arial, sans-serif;}
+body{margin:0;background:#f4f9f9;color:#222;}
+.container{max-width:900px;margin:0 auto;padding:1rem;}
+.site-header{background:#00796b;color:#fff;padding:2rem 0;text-align:center;}
+.site-header h1{margin:0;font-size:1.8rem;}
+.subtitle{opacity:0.9;margin-top:0.4rem;}
+.card{background:#fff;border-radius:10px;padding:1rem;margin:1rem 0;box-shadow:0 4px 10px rgba(0,0,0,0.06);}
+.highlight{background:#e0f2f1;padding:0.6rem;border-left:4px solid #00796b;border-radius:4px;margin-top:0.6rem;display:inline-block;}
+ul{line-height:1.7;padding-left:1.2rem;}
+.site-footer{background:#004d40;color:#fff;padding:1rem;text-align:center;margin-top:2rem;}
+.preview{width:48%;height:auto;margin-top:0.6rem;border-radius:6px;border:1px solid #ddd;padding:6px;background:#fff;}
