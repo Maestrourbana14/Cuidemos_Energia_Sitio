@@ -8,3 +8,19 @@ body{margin:0;background:#f4f9f9;color:#222;}
 .highlight{background:#e0f2f1;padding:0.6rem;border-left:4px solid #00796b;border-radius:4px;margin-top:0.6rem;display:inline-block;}
 ul{line-height:1.7;padding-left:1.2rem;}
 .site-footer{background:#004d40;color:#fff;padding:1rem;text-align:center;margin-top:2rem;}
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* relación 16:9 */
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
